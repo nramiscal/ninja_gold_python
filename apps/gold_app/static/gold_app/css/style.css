@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  /*outline: 1px dashed blue;*/
+  /*margin: 0px auto;*/
+}
+
+div .gold{
+  width: 50px;
+  height: 20px;
+  border: 2px solid black;
+}
+
+.wrapper{
+  background-color: blue
+  width: 1000px;
+  margin: 0px auto;
+  /*display: inline-block;
+  vertical-align: top;*/
+}
+.total_gold{
+  width: 500px;
+  height: 50px;
+}
+.places{
+  width: 1000px;
+  /*height: 500px;*/
+
+  /*display: inline-block;
+  vertical-align: top;*/
+  display: flex;
+  justify-content: space-around;
+}
+
+.place{
+  width: 250px;
+  height: 250px;
+  /*display: inline-block;
+  vertical-align: top;*/
+  border: 2px solid black;
+
+}
+div .activities{
+  width: 1000px;
+  height: 200px;
+  border: 2px solid black;
+}
